@@ -404,7 +404,7 @@ export default function Home() {
                     <div>
                       <h4 className="text-base md:text-lg font-medium mb-1">Email</h4>
                       <p className="text-gray-600 text-sm md:text-base">
-                        <a href="mailto:Sanjuktamohanty67890@gmail.com" className="hover:text-blue-600 transition">Sanjuktamohanty67890@gmail.com</a>
+                        <a href="mailto:sanjuktamohanty67890@gmail.com" className="hover:text-blue-600 transition">sanjuktamohanty67890@gmail.com</a>
                       </p>
                     </div>
                   </div>

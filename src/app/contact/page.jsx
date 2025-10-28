@@ -144,7 +144,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-blue-600 text-xl" />
-              <p className="text-gray-600">Sanjuktamohanty67890@gmail.com</p>
+              <p className="text-gray-600">sanjuktamohanty67890@gmail.com</p>
             </div>
 
             {/* Google Map */}
