@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaArrowRight, FaShieldAlt, FaStar, FaUsers, FaCar, FaBus } from 'react-icons/fa'
+import Link from 'next/link'
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -62,9 +63,9 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="flex flex-col sm:flex-row justify-center gap-4 px-4"
           >
-            <a href="#contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
+            <Link href="/booking" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
               Book Now
-            </a>
+            </Link>
             <a href="#services" className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
               Our Services
             </a>
@@ -224,10 +225,10 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4 md:p-6 text-white">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2">Local Car Rental</h3>
                 <p className="mb-4 text-sm md:text-base">Hourly and daily car rental services for local travel in Kolkata</p>
-                <a href="#contact" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
+                <Link href="/booking" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
                   <span>Book Now</span>
                   <FaArrowRight className="ml-2" />
-                </a>
+                </Link>
               </div>
             </motion.div>
             
@@ -248,10 +249,10 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4 md:p-6 text-white">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2">Outstation Trips</h3>
                 <p className="mb-4 text-sm md:text-base">Comfortable cars for long-distance travel outside Kolkata</p>
-                <a href="#contact" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
+                <Link href="/booking" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
                   <span>Book Now</span>
                   <FaArrowRight className="ml-2" />
-                </a>
+                </Link>
               </div>
             </motion.div>
             
@@ -272,10 +273,10 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4 md:p-6 text-white">
                 <h3 className="text-xl md:text-2xl font-semibold mb-2">Airport Transfer</h3>
                 <p className="mb-4 text-sm md:text-base">Timely airport pickup and drop services</p>
-                <a href="#contact" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
+                <Link href="/booking" className="inline-flex items-center text-blue-400 font-medium text-sm md:text-base">
                   <span>Book Now</span>
                   <FaArrowRight className="ml-2" />
-                </a>
+                </Link>
               </div>
             </motion.div>
           </div>

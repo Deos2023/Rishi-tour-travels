@@ -40,7 +40,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Services", "Gallery", "Contact"].map((item, i) => (
+            {["Home", "About", "Services", "Gallery", "Booking","Contact"].map((item, i) => (
               <a
                 key={i}
                 href={
