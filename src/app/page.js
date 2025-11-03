@@ -66,9 +66,9 @@ export default function Home() {
             <Link href="/booking" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
               Book Now
             </Link>
-            <a href="#services" className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
+            <Link href="/services" className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-full text-base md:text-lg font-medium transition">
               Our Services
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>
